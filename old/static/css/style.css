@@ -1,0 +1,147 @@
+.resume-title {
+    background-color: #212121;
+    padding: 30px;
+}
+
+.title-img {
+    padding-right: 50px;
+}
+
+.title-img > img {
+    border-radius: 50%;
+    width: 150px;
+    float: right;
+}
+
+.title-info {
+    color: #ccc;
+    text-align: left;
+}
+
+@media (max-width: 767px) {
+    .title-info {
+        text-align: center;
+    }
+
+    .title-img {
+        padding-right: 0;
+    }
+
+    .title-img > img {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+}
+
+.list-me > li {
+    font-size: 16px;
+    color: #2aabd2;
+}
+
+.fa-stack {
+    margin-top: 20px;
+    font-size: 45px;
+    color: #fff;
+    transition: color .2s ease-in;
+}
+
+.fa-circle {
+    color: #eee;
+}
+
+.fa-stack .fun-icon {
+    color: #999;
+    transition: color .2s ease-in;
+}
+
+.fun-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    min-height: 290px;
+}
+
+.fun-item.member {
+    min-height: 230px;
+}
+
+.fun-desc {
+    color: #888;
+}
+
+.fun-item:hover {
+    background-color: #f9f9f9;
+}
+
+.fun-item:hover .fa-circle {
+    color: #ddd;
+}
+
+.fun-item:hover .fun-desc {
+    color: #666;
+}
+
+.fun-item:hover .fa-stack .fun-icon {
+    color: #ff6600;
+}
+
+.jing-li {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.page-header {
+    margin-top: 10px;
+}
+
+.xiang-mu {
+    margin-top: 20px;
+}
+
+.footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.xiang-mu-item {
+    margin: 20px 0;
+}
+
+.xiang-mu-desc img {
+    height: 30px;
+}
+
+.xiang-mu-logo {
+    text-align: center;
+}
+
+.xiang-mu-logo span {
+    font-size: 48px;
+    color: #ff6600;
+}
+
+.xiang-mu-logo img {
+    width: 64px;
+}
+
+.dl-horizontal dt {
+    color: #333;
+}
+.dl-horizontal dd {
+    color: #666;
+}
+
+@media (min-width: 768px) {
+    .dl-horizontal dt {
+        width: 100px;
+    }
+    .dl-horizontal dd {
+        margin-left: 120px;
+    }
+}
+
+.weixin {
+    width: 100px;
+}
