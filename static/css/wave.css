@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #111;
+    overflow: hidden;
+    color: #fff;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+#wave-canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #111;
+    z-index: 1;
+}
+.title {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #00ffe7;
+    text-shadow: 0 0 20px #00ffe7, 0 0 40px #00ffe744;
+    z-index: 2;
+}
+.desc {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: 0.7;
+    z-index: 2;
+}
